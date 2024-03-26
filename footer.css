@@ -1,0 +1,252 @@
+/* footer'den ust hisse */
+  
+.course-end{
+    width: 100%;
+    height: 100vh;
+    padding-left: 50px;
+    background-color: #9DC9C8;
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly;
+}
+.info{
+   display: flex;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 101.38%;
+}
+.price{
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Roboto';
+    line-height: 101.38%;
+    padding: 0px 60px;
+    margin-bottom: 0px;
+}
+.time{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    padding:60px 0px 0px 60px;
+}
+.rub{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 101.38%;
+    padding: 0px 0px 0px 60px;
+    margin-top: 0px;
+}
+.thead{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25.35px;
+    padding: 0px 60px ;
+}
+.base{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18.25px;
+    padding: 0px 60px;
+}
+
+   /* footer */
+
+footer{
+   width: 100%;
+   height: 390px ;
+   padding-left: 50px;
+   background-color: #000;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+ .black{
+  display: flex;
+  justify-content: space-between;
+}  
+#insta{
+  padding: 0px 10px 0px 0px;
+}
+#fb{
+  padding: 0px 10px 0px 0px;
+}
+#twit{
+  padding: 0px 10px 0px 0px;
+}
+#watsapp{
+  padding: 0px 10px 0px 0px;
+}
+.logo{
+  padding: 40px 0px 0px 80px;
+  margin-left: 0px;
+}
+.logos{
+  padding:20px 0px 0px 80px ;
+}
+.left{
+  flex-direction: column;
+  padding: 40px 130px 0px 0px;
+}
+.left p{
+  color: #fff;
+}
+.phone{
+  display: flex;
+}
+.cell-phone{
+  margin-right: 5px;
+}
+.number{
+ font-family: 'Roboto';
+ font-weight: 400;
+ font-size: 15px;
+ line-height: 101.38%;
+ color: #FFFFFF;
+}
+.mail{
+  display: flex;
+}
+.e-mail{
+  margin-right: 7px;
+}
+.date{
+ color: #fff;
+ font-family: 'Roboto';
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 101.38%;
+ padding:0px 0px 20px 80px;
+ }
+.all-left{
+ display: flex;
+ flex-direction: column;
+ }
+
+   /* tablet media */
+
+@media only screen and (min-width: 992px) and (max-width: 1279px){
+    .course-end{
+        width: 100%;
+        height:451.75px;
+        padding-left: 50px;
+        }
+      .time{
+        font-size: 32px;
+        line-height: 32.44px;
+        }
+      .price{
+        font-size: 14px;
+        line-height: 14.19px;
+        }
+      .rub{
+        font-size: 46px;
+        line-height: 46.64px;
+        }
+      .thead{
+        font-size: 14px;
+        line-height: 14.19px;
+        }
+      .base{
+        font-size: 10px;
+        line-height: 10.14px;
+        }
+      footer{
+        width: 100%;
+        height: 225.88px;
+        padding-left:50px ;
+        }
+      #footer-logo{
+        width: 66.6px;
+        height: 39.38px;
+        }
+      #insta{
+        width: 19.11px;
+        height: 19.11px;
+        }
+      #fb{
+        width: 18.53px;
+        height:18.53px ;
+        }
+      #twit{
+        width: 20.27px;
+        height: 20.27px;
+        }
+      #watsapp{
+        width: 19.69px;
+        height: 19.69px;
+        }
+      .cell-phone{
+        width: 15.64px;
+        height: 15.64px;
+        }
+      .number{
+        font-size: 14px;
+        line-height: 14.19px;
+        margin-top: 0px ;
+        }
+      .e-mail{
+        width: 15.64px;
+        height: 10.43px;
+        }
+      .hello{
+        font-size: 14px;
+        line-height: 14.19px;
+        margin-top: 0px;
+       }
+      .date{
+        font-size: 10px;
+        line-height: 10.14px;
+       } 
+}
+
+/* Mobile media */
+
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    .course-end{
+        width: 100%;
+        padding-right: 35px;
+        padding-bottom: 20px;
+    }
+    .time{
+     font-size: 26px;
+    }
+    .price{
+     font-size: 12px;
+    }
+    .rub{
+     font-size: 37px;
+    }
+    .thead{
+     font-size: 12px;
+    }
+    .base{
+     font-size: 10px;
+    }
+     .course-end .time{
+        width: 30%;
+        font-size: 36px;
+        line-height: 37.36px;
+    }
+    .course-end .price{
+        font-size: 12px;
+    }
+    .course-end .rub{
+        font-size: 37px;
+    }
+    footer{
+        width: 100%;
+        height: 60vh;
+        padding-right: 35px;
+    }
+    .black{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        padding: 60px 0px 0px 80px;
+        line-height: 5px;
+    }
+ }
