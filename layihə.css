@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+}
+.what{
+    width: 50%;
+    height: 70vh;
+    margin-left: 100px;
+    margin-top: 10vh;
+}
+.what h2{
+    margin: 30px 0;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+}
+.what li{
+    font-size: 24px;
+    list-style-position: inside;
+    font-family: "Roboto", sans-serif;
+}
+li:first-child{
+    list-style-type: none;
+}
+@media screen and (min-width:992px) and (max-width:1279px){
+    .what{
+        width: 40%;
+        height: 50vh;
+    }
+    .what h2{
+        font-size: 32px;
+    }
+    .what li{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:991px){
+    .what{
+        width: 40%;
+       
+    }
+    .what h2{
+        font-size: 26px;
+    }
+    .what li{
+        font-size: 12px;
+    }
+    .what{
+        margin-bottom: 70px;
+    }
+}
+.course-boxes{
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+.course-programme{
+    width: 700px;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-family: "Roboto Slab", serif;
+}
+.course-syllabus{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.course-syllabus img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.course-syllabus div{
+    margin: 15px 10px;
+    width: 28%;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #888;
+    box-sizing: border-box;
+}
+.course-syllabus h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.course-syllabus p{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@media screen and (min-width:992px) and (max-width:1279px){
+    .course-syllabus div{
+        height: 220px;
+        width: 26%;   
+    }
+    .course-syllabus h2{
+        font-size: 17px;
+    }
+    .course-syllabus p{
+        font-size: 14px;
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:991px){
+    .course-syllabus{
+        width: 90%;
+    }
+    .course-syllabus div{
+        min-height: 30vh;
+        max-height: 50vh;
+        width: 70%;  
+        border-radius: 55px;
+        margin: 20px auto;
+    }
+    .course-syllabus h2{
+        font-size: 14px;
+    }
+    .course-syllabus p{
+        font-size: 12px;
+    }
+    .course-programme{
+        margin: 0 auto;
+        font-size: 20px;
+        width: 200px;
+    }
+    .course-boxes{
+        margin-top: 20px;
+    }
+}
+.student{
+    height: 100vh;
+    width: 100%;
+    background-color: lightgrey;
+    padding-left: 100px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.student1616{
+    font-size: 55px;
+    font-weight: bold;
+    width: 987px;
+    height: 93px;
+    margin-bottom: 50px;
+    font-family: "Roboto Slab", serif;
+}
+.information{
+    width: 60%;
+    height: 60vh;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 10px gray;
+}
+.information p{
+    width: 90%;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.yekaterina{
+    display: flex;
+    width: 100%;
+}
+.yekaterina2{
+    align-self: center;
+}
+.yekaterina img{
+    padding-right: 5em;
+}
+.yekaterina h3{
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+}
+#image-yekaterina{
+    width: 45%;
+}
+@media screen and (min-width:992px) and (max-width:1279px){
+    .student1616{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .information{
+        height: 50vh;
+    }
+    .information p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .yekaterina h3{
+        font-size: 17px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:991px){
+    .student1616{
+        font-size: 20px;
+        width: 200px;
+    }
+    .student{
+        padding-left: 0;
+    }
+    .information{
+        width: calc(100vw - 20px);
+        margin: 0 auto;
+    }
+    .information p{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .yekaterina h3{
+        font-size: 14px;
+       
+    }
+}
